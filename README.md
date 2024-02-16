@@ -20,6 +20,6 @@ Se você é novo no Git e no GitHub, aqui estão alguns passos para começar:
 3. **Abra seu terminal**: Cole no terminal a URL desse repositório: `git clone "https://github.com/talita048/PortalDeEstagios.git"`.
 4. **Crie uma nova Branch**: Use o comando `git checkout -b nome_da_sua_branch`.
 5. **Faça suas alterações**: Adicione, edite ou delete arquivos conforme necessário.
-6. **Commit suas alterações**: Use o comando `git add .` para adicionar suas alterações e `git commit -m "sua mensagem de commit"` para esplicar suas alterações.
+6. **Commit suas alterações**: Use o comando `git add .` para adicionar suas alterações e `git commit -m "sua mensagem de commit"` para explicar suas alterações.
 7. **Push para o GitHub**: Use o comando `git push origin nome_da_sua_branch`.
 8. **Abra um Pull Request**: Volte para o seu repositório forkado no GitHub e clique no botão "Compare & pull request". Escreva uma descrição das suas alterações e clique no botão "Create pull request".
