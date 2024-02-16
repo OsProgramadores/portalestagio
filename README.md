@@ -1,5 +1,3 @@
-# PortalDeEstagios
-
 ## Sobre o Projeto
 
 Este projeto é uma web app para conectar empresas que oferecem estágios e candidatos que procuram oportunidades, feito através do grupo Os Programadores. As empresas podem cadastrar suas vagas e os candidatos podem se candidatar a elas.
