@@ -28,10 +28,10 @@ A aplicação está sendo criada usando [NextJS](https://nextjs.org/).
 
 Requisitos:
 
-* Node.js 18.17 ou mais recente precisam estar instalados na sua máquina.
+* Node.js 18.17 ou mais recente precisa estar instalado na sua máquina.
 
-Comando para iniciar a aplicação em modo desenvolvimento
+Comando para iniciar a aplicação em modo desenvolvimento:
 
 ```npm run dev```
 
-Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador
+Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador.
