@@ -1,8 +1,6 @@
-# PortalDeEstagios
-
 ## Sobre o Projeto
 
-Este projeto é uma web app para conectar empresas que oferecem estágios e candidatos que procuram oportunidades, feito através do grupo Os Programadores. As empresas podem cadastrar suas vagas e os candidatos podem se candidatar a elas.
+Este projeto é uma web app para conectar empresas que oferecem estágios e candidatos que procuram oportunidades, feito através do grupo [Os Programadores](https://osprogramadores.com). As empresas podem cadastrar suas vagas e os candidatos podem se candidatar a elas.
 
 ## Como Contribuir
 
@@ -11,7 +9,7 @@ Agradecemos o seu interesse em contribuir para o `PortalDeEstagios`! Este é um 
 1. **Grupo Os Programadores**: Toda discussão sobre esse projeto está sendo feita através do [grupo no Telegram](https://t.me/osprogramadores). O site oficial do grupo é (https://osprogramadores.com/).
 2. **Contribuir com o código**: Faça um fork do projeto, crie uma nova branch, faça suas alterações e abra um Pull Request.
 
-### Usando o Git e o GitHub
+## Usando o Git e o GitHub
 
 Se você é novo no Git e no GitHub, aqui estão alguns passos para começar:
 
@@ -23,3 +21,17 @@ Se você é novo no Git e no GitHub, aqui estão alguns passos para começar:
 6. **Commit suas alterações**: Use o comando `git add .` para adicionar suas alterações e `git commit -m "sua mensagem de commit"` para explicar suas alterações.
 7. **Push para o GitHub**: Use o comando `git push origin nome_da_sua_branch`.
 8. **Abra um Pull Request**: Volte para o seu repositório forkado no GitHub e clique no botão "Compare & pull request". Escreva uma descrição das suas alterações e clique no botão "Create pull request".
+
+## Executando a aplicação
+
+A aplicação está sendo criada usando [NextJS](https://nextjs.org/).
+
+Requisitos:
+
+* Node.js 18.17 ou mais recente precisam estar instalados na sua máquina.
+
+Comando para iniciar a aplicação em modo desenvolvimento
+
+```npm run dev```
+
+Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador
