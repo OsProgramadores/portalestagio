@@ -30,6 +30,8 @@ Requisitos:
 
 * Node.js 18.17 ou mais recente precisa estar instalado na sua máquina.
 
+Realize a instalação do Next Js antes de começar.
+
 Comando para iniciar a aplicação em modo desenvolvimento:
 
 ```npm run dev```
