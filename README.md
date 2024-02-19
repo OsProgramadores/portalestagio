@@ -11,7 +11,7 @@ Agradecemos o seu interesse em contribuir para o `PortalDeEstagios`! Este é um 
 
 ## Licença
 
-Este projeto utiliza a licença [GNU LGPL v3](https://www.gnu.org/licenses/lgpl-3.0.en.html). Uma cópia da licença, em inglês, está disponível em [LICENSE.md]().
+Este projeto utiliza a licença [GNU LGPL v3](https://www.gnu.org/licenses/lgpl-3.0.en.html). Uma cópia da licença, em inglês, está disponível em [LICENSE.md](LICENSE.md).
 
 ## Usando o Git e o GitHub
 
