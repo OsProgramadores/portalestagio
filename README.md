@@ -9,6 +9,10 @@ Agradecemos o seu interesse em contribuir para o `PortalDeEstagios`! Este é um 
 1. **Grupo Os Programadores**: Toda discussão sobre esse projeto está sendo feita através do [grupo no Telegram](https://t.me/osprogramadores). O site oficial do grupo é (https://osprogramadores.com/).
 2. **Contribuir com o código**: Faça um fork do projeto, crie uma nova branch, faça suas alterações e abra um Pull Request.
 
+## Licença
+
+Este projeto utiliza a licença [GNU LGPL v3](https://www.gnu.org/licenses/lgpl-3.0.en.html). Uma cópia da licença, em inglês, está disponível em [LICENSE.md]().
+
 ## Usando o Git e o GitHub
 
 Se você é novo no Git e no GitHub, aqui estão alguns passos para começar:
