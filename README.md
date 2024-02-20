@@ -32,13 +32,22 @@ A aplicação está sendo criada usando [NextJS](https://nextjs.org/).
 
 Requisitos:
 
-* Node.js 18.17 ou mais recente precisa estar instalado na sua máquina.
+* [Node.js 18.17](https://nodejs.org/en) ou mais recente precisa estar instalado na sua máquina.
 
 Comando para iniciar a aplicação em modo desenvolvimento:
 
 ```npm run dev```
 
 Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador.
+
+### Gerenciamento de versões do Node
+
+Para instalar e gerenciar diferentes versões do node.js você pode usar as seguintes ferramentas:
+
+- Caso você utilize Linux, pode utilizar o [nvm](https://github.com/nvm-sh/nvm)
+- Caso você utilize Windows, pode utilizar o [nvm-windows](https://github.com/coreybutler/nvm-windows)
+
+Ambos são ferramentas amplamente utilizadas e difundidas para facilitar a instalação/manutenção do Node.
 
 ## GitHub Projects
 
