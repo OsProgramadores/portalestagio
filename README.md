@@ -39,3 +39,7 @@ Comando para iniciar a aplicação em modo desenvolvimento:
 ```npm run dev```
 
 Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador.
+
+## GitHub Projects
+
+Estará disponível assim que for criado.
