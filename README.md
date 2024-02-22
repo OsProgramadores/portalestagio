@@ -99,7 +99,7 @@ Se você é novo no Git e no GitHub, aqui estão alguns passos para começar:
    1. Você pode fazer isso usando o comando`git commit -m "sua mensagem de commit"`, alterando "mensagem de commit" por algo que explique suas alterações.
 1. **Enviando suas alterações para o GitHub**:
    1. Após ter criado o commit, você precisa enviar as suas alterações para o GitHub.
-   1. Você pode fazer isso utilizando o comando `git push origin nome_da_sua_branch`.
+   1. Você pode fazer isso utilizando o comando `git push --set-upstream origin nome_da_sua_branch`.
 1. **Abrindo um Pull Request**: 
    1. Após você ter enviado as suas alterações, volte para a página do seu repositório _forkado_ no GitHub.
    1. Um botão _**Compare & pull request**_ deverá ser exibido. Clique nele para criar seu PR (Pull Request).
