@@ -1,3 +1,5 @@
+# Após pesquisas, concluí que o framework nextjs utiliza os repos do NPM
+# logo não é necessário adicionar outra verificação para ele
 # Basic `dependabot.yml` file with
 # minimum configuration for two package managers
 
@@ -11,10 +13,11 @@ updates:
     schedule:
       interval: "daily"
 
+  # Docker desabilitado enquanto não é necessário
   # Enable version updates for Docker
-  - package-ecosystem: "docker"
-    # Look for a `Dockerfile` in the `root` directory
-    directory: "/"
-    # Check for updates once a week
-    schedule:
-      interval: "weekly"
+  #  - package-ecosystem: "docker"
+  #    # Look for a `Dockerfile` in the `root` directory
+  #    directory: "/"
+  #    # Check for updates once a week
+  #    schedule:
+  #      interval: "weekly"
