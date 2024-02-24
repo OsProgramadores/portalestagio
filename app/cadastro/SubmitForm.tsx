@@ -75,18 +75,13 @@ export default function SubmitForm() {
         </div>
 
         <div className="flex flex-col">
-            <label>Data de Inserção<span className="text-red-500">*</span></label>
-            <input type="date" name="DataInsercao" required />
+            <label>Email do responsável<span className="text-red-500">*</span></label>
+            <input type="email" name="EmailResponsavel" required />
         </div>
 
         <div className="flex flex-col">
-            <label>Data de Publicação<span className="text-red-500">*</span></label>
-            <input type="date" name="DataPublicacao" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Data de Expiração<span className="text-red-500">*</span></label>
-            <input type="date" name="DataExpiracao" required />
+            <label>Como se candidatar?<span className="text-red-500">*</span></label>
+            <input type="text" name="ComoCandidatar" required />
         </div>
 
         <div className="flex h-10 items-center justify-center rounded-lg bg-blue-500 px-4 text-sm font-medium text-white transition-colors hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-blue-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
