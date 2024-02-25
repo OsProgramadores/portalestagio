@@ -4,13 +4,22 @@
 // However, these types are generated automatically if you're using an ORM such as Prisma.
 export type Estagio = {
   id: string;
-  name: string;
-  empresa: string;
-  requisitos: string;
-  estado: string;
+  beneficios: string;
+  cnpj: string;
   cidade: string;
+  como_se_candidatar: string;
   contato: string;
+  data_cadastro: Date;
+  email_responsavel: string;
+  empresa: string;
+  estado: string;
+  hours_per_week: number;
+  modalidade: string;
+  requisitos: string;
+  responsabilidades: string;
+  responsavel: string;
   salario: string;
+  vaga_descricao: string;
 };
 
 export type User = {
