@@ -1,4 +1,5 @@
 import EstagioLogo from '@/app/ui/estagio-logo';
+import SearchForm from './SearchForm';
 
 export default function Page() {
   return (
@@ -12,8 +13,9 @@ export default function Page() {
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Busca de Estágio</strong>
           </p>
+          <SearchForm />
         </div>
-    
+
     </main>
   );
 }
