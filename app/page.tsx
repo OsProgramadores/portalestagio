@@ -5,7 +5,6 @@ import Image from 'next/image';
 import EstagioLogo from '@/app/ui/estagio-logo';
 import Layout from './ui/layout';
 
-
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
