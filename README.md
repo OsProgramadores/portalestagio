@@ -1,10 +1,15 @@
+# Portal de Estágios
+
+Disponível em https://portalestagio.com/.
+
+Atualmente o projeto encontra-se em um estágio inicial, com poucas funcionalidades implementadas.
+Caso queira contribuir, consulte a seção [como contribuir](#como-contribuir).
+
 ## Sobre o Projeto
 
 Este projeto é um _web app_ para conectar empresas que oferecem estágios e candidatos que procuram oportunidades, feito através do grupo [Os Programadores](https://osprogramadores.com). 
 
 As empresas podem cadastrar as suas vagas e os candidatos podem se candidatar a elas.
-
-Atualmente o projeto chama-se: `Portal De Estágios`.
 
 ## Como Contribuir
 
