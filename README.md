@@ -32,6 +32,8 @@ Aqui estão algumas maneiras de contribuir:
       1. Se houver uma issue associada as suas mudanças, mencione-a no seu PR.
       2. Descreva o que foi modificado e o porquê no seu PR, isso facilitará o processo de revisão.
 
+Caso precise de um guia de estudos, recomendamos a leitura [deste guia](GUIA).
+
 
 > Para conferir as issues e as discussões em andamento você pode acessá-las diretamente através das suas respectivas abas no topo desta página.
 
