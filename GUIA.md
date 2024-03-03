@@ -30,6 +30,13 @@ para os estudos.
 * [Mozilla Developer Network - Documentação WEB em geral](https://developer.mozilla.org/pt-BR/)
 * [W3Schools HTML Tutorial (inglês)](https://www.w3schools.com/html/default.asp)
 
+## JavaScript
+
+* [Eloquent Javascript - Livro (inglês)](https://eloquentjavascript.net/)
+* [MDN - JavaScript (português)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [W3Schools JavaScript Tutorial (inglês)](https://www.w3schools.com/js/DEFAULT.asp)
+* [Introdução ao JavaScript - MDN (português)](https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction)
+
 ### Next.JS
 
 * [Documentação oficial](https://nextjs.org/docs)
