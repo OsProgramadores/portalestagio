@@ -52,15 +52,27 @@ Caso você não saiba do que se trata ou queira aprofundar seus conhecimentos so
 
 A aplicação está sendo criada usando [NextJS](https://nextjs.org/).
 
-Requisitos:
+### Requisitos:
 
-* [Node.js 18.17](https://nodejs.org/en) ou mais recente precisa estar instalado na sua máquina.
+* [Node.js 18.17](https://nodejs.org/en), ou mais recente, precisa estar instalado na sua máquina. 
+  * Recomendamos instalar as versões LTS
 
-Comando para iniciar a aplicação em modo desenvolvimento:
+##### Comando para iniciar a aplicação em modo desenvolvimento:
 
-```npm run dev```
-
+```shell
+npm run dev
+```
 Siga as instruções exibidas na linha de comando para acessar a aplicação no navegador padrão do seu computador.
+
+> Lembrando que, caso você não tenha instalado as dependências do projeto o comando acima falhará! 
+ 
+Para conferir se ainda há alguma dependência que não foi instalada execute o comando `npm list`. 
+Se a saída do comando apresentar mensagens de erro, você precisa instalá-las.
+
+Para instalar as dependências do projeto, execute o seguinte comando:  
+```shell
+npm install
+```
 
 ### Gerenciamento de versões do Node
 
@@ -70,6 +82,10 @@ Para instalar e gerenciar diferentes versões do node.js você pode usar as segu
 - Caso você utilize Windows, pode utilizar o [nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 Ambos são ferramentas amplamente utilizadas e difundidas para facilitar a instalação/manutenção do Node.
+
+Informações sobre como instalá-las estão disponíveis nos seus respectivos repositórios. 
+
+> Caso tenha dificuldades nesta etapa, peça ajuda no [grupo Os Programadores, no Telegram](https://t.me/osprogramadores). 
 
 --- 
 
