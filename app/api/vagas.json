@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nome": "Nome da Vaga 1",
+      "modalidade": "Modalidade 1",
+      "empresa": "Nome da Empresa 1",
+      "localizacao": "Cidade, Estado, País",
+      "valorBolsa": "R$00,00"
+    },
+    {
+      "id": 2,
+      "nome": "Nome da Vaga 2",
+      "modalidade": "Modalidade 2",
+      "empresa": "Nome da Empresa 2",
+      "localizacao": "Cidade, Estado, País",
+      "valorBolsa": "R$00,00"
+    },
+    {
+      "id": 3,
+      "nome": "Nome da Vaga 3",
+      "modalidade": "Modalidade 3",
+      "empresa": "Nome da Empresa 3",
+      "localizacao": "Cidade, Estado, País",
+      "valorBolsa": "R$00,00"
+    }
+  ]  

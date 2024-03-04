@@ -1,19 +1,40 @@
+"use client";
+import React, { useState, useEffect } from 'react';
 import PortalEstagioLogo from './components/PortalEstagioLogo';
 import SearchBox from './components/SearchBox';
 import Button from './components/Button';
-export default function Page() {
+import ListaVagas from './components/ListaVagas'; // Importe o novo componente
+
+const Page = () => {
+  const [vagas, setVagas] = useState([]);
+
+  useEffect(() => {
+    // Simula uma requisição a um servidor para buscar os dados do arquivo JSON
+    fetch('/api/vagas.json')
+      .then((response) => response.json())
+      .then((data) => setVagas(data))
+      .catch((error) => console.error('Erro ao buscar dados:', error));
+  }, []);
+
   return (
     <div className='bg-white flex flex-col h-screen'>
       <div className='=flex-none'> 
         <div className="flex space-x-4 mt-2 ml-2 mr-2">
-          <div className='flex-none'><PortalEstagioLogo /></div>
-          <div className='grow'><SearchBox /></div>
-          <div className='flex-none'><Button /></div>
+          <div className='flex-none w-1/5'><PortalEstagioLogo /></div>
+          <div className='grow w-3/5'><SearchBox /></div>
+          <div className='flex-none w-1/5'><Button /></div>
         </div>
       </div>
-      <div className='flex-grow bg-sky-50 mt-2 ml-2 mr-2' >
-      <div className="flex flex-col items-center justify-center" style={{ height: '100%' }}>
-          area reservada para os menus e resultado de busca
+      <div className='flex-grow bg-gray-300 mt-2 ml-2 mr-2 flex'>
+        <div id="leftMenu" className="flex flex-col items-center justify-center w-1/5 bg-gray-200">
+          Menu lateral esquerdo
+        </div>
+        <div id="resultSearch" className="flex flex-col items-center justify-center w-3/5 bg-gray-300">
+          {/* Use o componente ListaVagas aqui */}
+          <ListaVagas vagas={vagas} />
+        </div>
+        <div id="rightMenu" className="flex flex-col items-center justify-center w-1/5 bg-gray-200">
+          Menu lateral direito
         </div>
       </div>
       <div className='flex-none'>
@@ -23,4 +44,6 @@ export default function Page() {
       </div>
     </div>
   );
-}
+};
+
+export default Page;
