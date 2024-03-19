@@ -36,8 +36,13 @@ export default function SubmitForm() {
         </div>
 
         <div className="flex flex-col">
-          <label>Local<span className="text-red-500">*</span></label>
-          <input type="text" name="Local" required />
+          <label>Cidade<span className="text-red-500">*</span></label>
+          <input type="text" name="cidade" required />
+        </div>
+
+        <div className="flex flex-col">
+            <label>Estado<span className="text-red-500">*</span></label>
+            <input type="text" name="estado" required />
         </div>
 
         <div className="flex flex-col">
