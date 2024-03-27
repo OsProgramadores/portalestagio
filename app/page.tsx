@@ -4,6 +4,7 @@ import PortalEstagioLogo from './components/PortalEstagioLogo';
 import SearchBox from './components/SearchBox';
 import Button from './components/Button';
 import ListaVagas from './components/ListaVagas'; // Importe o novo componente
+import Menu from './components/Menu';
 
 const Page = () => {
   const [vagas, setVagas] = useState([]);
@@ -26,15 +27,15 @@ const Page = () => {
         </div>
       </div>
       <div className='flex-grow bg-gray-300 mt-2 ml-2 mr-2 flex'>
-        <div id="leftMenu" className="flex flex-col items-center justify-center w-1/5 bg-gray-200">
-          Menu lateral esquerdo
+        <div id="leftMenu" className="flex flex-row items-start justify-center w-1/5 bg-gray-200">
+          <Menu side="left"/>
         </div>
         <div id="resultSearch" className="flex flex-col items-center justify-center w-3/5 bg-gray-300">
           {/* Use o componente ListaVagas aqui */}
           <ListaVagas vagas={vagas} />
         </div>
-        <div id="rightMenu" className="flex flex-col items-center justify-center w-1/5 bg-gray-200">
-          Menu lateral direito
+        <div id="rightMenu" className="flex flex-row items-start justify-center w-1/5 bg-gray-200">
+          <Menu side="right"/>
         </div>
       </div>
       <div className='flex-none'>
