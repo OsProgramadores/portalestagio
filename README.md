@@ -1,4 +1,4 @@
-# Portal de Estágios
+# Portal Estágio
 
 Disponível em https://portalestagio.com/.
 
