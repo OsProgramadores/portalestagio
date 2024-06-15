@@ -42,12 +42,6 @@ Caso precise de um guia de estudos, recomendamos a leitura [deste guia](GUIA.md)
 
 Este projeto utiliza a licença [GNU LGPL v3](https://www.gnu.org/licenses/lgpl-3.0.en.html). Uma cópia da licença, em inglês, está disponível em [LICENSE.md](LICENSE.md).
 
-## GitHub Projects
-
-Disponível através [deste link](https://github.com/orgs/OsProgramadores/projects/4).
-
-Caso você não saiba do que se trata ou queira aprofundar seus conhecimentos sobre o GitHub Projects, [indicamos iniciar seus estudos através deste link](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
-
 --- 
 
 ## Executando a aplicação
