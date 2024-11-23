@@ -21,7 +21,7 @@ export default function SubmitForm() {
     <form onSubmit={onSubmit}>
       <div className="flex flex-col gap-6 rounded-lg bg-gray-50 px-6 py-10 md:px-20"> 
         <div className="flex flex-col">
-          <label>Empresa<span className="text-red-500">*</span></label>
+          <label>Empresa</label>
           <input type="text" name="empresa" required />
         </div>
 
