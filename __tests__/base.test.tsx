@@ -16,7 +16,7 @@ vi.mock('next/font/google', () => ({
   }),
 }))
 
-test('Page', () => {
+test('Componentes da página inicial', () => {
   render(<Page />)
   const h1 = screen.getByRole('heading', { level: 1, name: 'Portal Estágio', exact: true })
   const h2 = screen.getByRole('heading', { level: 2, name: 'Quer estagiar ou tem um estágio para oferecer?', exact: true })
