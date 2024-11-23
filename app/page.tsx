@@ -18,18 +18,20 @@ export default function Page() {
           <div
     className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
   />
-            <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-              <strong>Quer estagiar ou tem um estágio para oferecer?</strong>
-            </p>
+            <h2 className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+              Quer estagiar ou tem um estágio para oferecer?
+            </h2>
             <Link
               href="/cadastro"
               className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-9 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              title="Clique para cadastrar uma oportunidade de Estágio"
             >
               <span>Cadastrar Estágio</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
             <Link
               href="/busca"
               className="flex items-center gap-5 self-start rounded-lg bg-green-500 px-10 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              title="Clique para procurar uma oportunidade de Estágio"
             >
               <span>Procurar Estágio</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
