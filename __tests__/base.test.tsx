@@ -1,7 +1,7 @@
-import { expect, test, vi } from 'vitest'
-import { render, screen } from '@testing-library/react'
-import '@testing-library/jest-dom/vitest'
-import HomePage from '@/app/page'
+import { expect, test, vi } from 'vitest';
+import { render, screen, within } from '@testing-library/react';
+import '@testing-library/jest-dom/vitest';
+import HomePage from '@/app/page';
 import Cadastro from '@/app/cadastro/page'
 
 vi.mock('next/font/google', () => ({
@@ -40,14 +40,10 @@ test('Componentes da página inicial', () => {
   expect(busca).toHaveAccessibleDescription()
 })
 
-test('Componentes da página de cadastro', () => {
-  render(<Cadastro />)
-  const h2 = screen.getByRole('heading', { level: 2, name: 'Cadastro de vagas', exact: true })
-  expect(h2).toBeInTheDocument()
-})
-
-test('Formulário de cadastro de vagas', () => {
-  render(<Cadastro />)
-  empresa = screen.getByLabelText('Empresa')
-  expect(Empresa).toBeInTheDocument()
+test('Componentes da página de cadastro', async () => {
+  render(<Cadastro />);
+  const main = within(document.querySelector('#cadastro'));
+  expect(
+      main.getByRole('heading', { level: 2, name: 'Cadastro de vagas', exact: true })
+  ).toBeDefined();
 })

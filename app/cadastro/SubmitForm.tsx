@@ -17,77 +17,48 @@ export default function SubmitForm() {
     // ...
   }
 
+  function Required_input({inputLabel, inputId, inputName}) {
+        return <div className="flex flex-col">
+          <label class="after:content-['*'] after:ml-0.5 after:text-red-500" for="{inputId}">
+            {inputLabel}</label>
+          <input id="{inputId}" type="text" name="{inputName}" required />
+        </div>;
+  }
+
   return (
     <form onSubmit={onSubmit}>
       <div className="flex flex-col gap-6 rounded-lg bg-gray-50 px-6 py-10 md:px-20"> 
-        <div className="flex flex-col">
-          <label>Empresa</label>
-          <input type="text" name="empresa" required />
-        </div>
+        {[
+            ['Empresa', 'empresa-input', 'empresa'],
+            ['CNPJ da Empresa', 'cnpj-input', 'CNPJ'],
+            ['Descrição da Vaga', 'descricao-input', 'descricao'],
+            ['Cidade', 'cidade-input', 'cidade'],
+            ['Estado', 'estado-input', 'estado']
+        ].map(([label, id, name]) => (
+            <Required_input inputLabel={label} inputId={id} inputName={name} />
+        ))}
 
         <div className="flex flex-col">
-            <label>CNPJ da Empresa<span className="text-red-500">*</span></label>
-            <input type="text" name="CNPJ" required />
-        </div>
-
-        <div className="flex flex-col">
-          <label>Descrição da Vaga<span className="text-red-500">*</span></label>
-          <input type="text" name="descricao" required />
-        </div>
-
-        <div className="flex flex-col">
-          <label>Cidade<span className="text-red-500">*</span></label>
-          <input type="text" name="cidade" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Estado<span className="text-red-500">*</span></label>
-            <input type="text" name="estado" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Modalidade do Estágio<span className="text-red-500">*</span></label>
-            <select name="Modalidade" required>
+            <label for="modalidade-select" class="after:content-['*'] after:ml-0.5 after:text-red-500">
+            Modalidade do Estágio</label>
+            <select id="modalidade-select" name="Modalidade" required>
                 <option value="Presencial">Presencial</option>
                 <option value="Remoto">Remoto</option>
                 <option value="Híbrido">Híbrido</option>
             </select>
         </div>
 
-        <div className="flex flex-col">
-            <label>Carga Horária<span className="text-red-500">*</span></label>
-            <input type="text" name="CargaHoraria" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Remuneração<span className="text-red-500">*</span></label>
-            <input type="text" name="Remuneracao" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Benefícios<span className="text-red-500">*</span></label>
-            <input type="text" name="Beneficios" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Responsabilidades<span className="text-red-500">*</span></label>
-            <textarea name="Responsabilidades" required></textarea>
-        </div>
-
-        <div className="flex flex-col">
-            <label>Responsável pelo Estágio<span className="text-red-500">*</span></label>
-            <input type="text" name="ResponsavelEstagio" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Email do responsável<span className="text-red-500">*</span></label>
-            <input type="email" name="EmailResponsavel" required />
-        </div>
-
-        <div className="flex flex-col">
-            <label>Como se candidatar?<span className="text-red-500">*</span></label>
-            <input type="text" name="ComoCandidatar" required />
-        </div>
+        {[
+            ['Carga Horária', 'carga-input', 'CargaHoraria'],
+            ['Remuneração', 'remuneracao-input', 'Remuneracao'],
+            ['Benefícios', 'beneficios-input', 'Beneficios'],
+            ['Responsabilidades', 'responsabilidades-input', 'Responsabilidades'],
+            ['Responsável pelo Estágio', 'responsavel-input', 'ResponsavelEstagio'],
+            ['Email do Responsável', 'emailresponsavel-input', 'EmailResponsavel'],
+            ['Como se Candidatar?', 'comocandidatar-input', 'ComoCandidatar'],
+        ].map(([label, id, name]) => (
+            <Required_input inputLabel={label} inputId={id} inputName={name} />
+        ))}
 
         <div className="flex h-10 items-center justify-center rounded-lg bg-blue-500 px-4 text-sm font-medium text-white transition-colors hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-blue-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
             <button type="submit">Cadastrar</button>

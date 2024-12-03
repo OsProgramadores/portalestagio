@@ -5,7 +5,7 @@ const SubmitForm = dynamic(() => import('./SubmitForm'));
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col p-6">
+    <main id="cadastro" className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-26">
         {<EstagioLogo />}
       </div>
