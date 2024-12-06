@@ -6,7 +6,7 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "test": "vitest"
+    "test": "vitest run"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.3",

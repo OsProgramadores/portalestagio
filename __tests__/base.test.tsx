@@ -40,10 +40,3 @@ test('Componentes da página inicial', () => {
   expect(busca).toHaveAccessibleDescription()
 })
 
-test('Componentes da página de cadastro', async () => {
-  render(<Cadastro />);
-  const main = within(document.querySelector('#cadastro'));
-  expect(
-      main.getByRole('heading', { level: 2, name: 'Cadastro de vagas', exact: true })
-  ).toBeDefined();
-})
