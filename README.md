@@ -69,6 +69,13 @@ Para instalar as dependências do projeto, execute o seguinte comando:
 ```shell
 npm install
 ```
+##### Para testar a aplicação
+
+Basta abrir um terminal, na pasta do projeto, e executar:
+
+```shell
+npm run test
+```
 
 ### Gerenciamento de versões do Node
 
