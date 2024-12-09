@@ -1,5 +1,5 @@
 import { assert, expect, test, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import '@testing-library/jest-dom/vitest';
 import Cadastro from '@/app/cadastro/page'
 import SubmitForm from '@/app/cadastro/SubmitForm'
@@ -35,5 +35,5 @@ test('Formulário de cadastro de estágios', async () => {
     expect(screen.getByLabelText(label)).toBeRequired()
   ))
 
-  expect(screen.getByRole('button', { name: 'Cadastrar' })).toBeDefined()
+  expect(screen.getAllByRole('button', { name: 'Cadastrar' })).toBeDefined()
 })
